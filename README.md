@@ -2,6 +2,19 @@
   
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="bash_scripting_0"></a>bash_scripting</h1>
 <p >Description about list.sh</a> --&gt;</p>
+• This shell script displays the contents of a directory from where it's being ran based on the positional arguments being passed. <br>
+• This shell script takes care of any unknown character being passed as positional parameter or empty values.<br>
+• The positions of the columns namely File(F), Permission(P), Time(T), Date(D) in the output of the command "ls -l" are being hard coded into the respective
+variables.<br>
+• Based on the order and the type of the arguments being passed the column numbers are being assigned to the respective variables
+along with the name of the columns. This is executed using while loop and case statement in Shell script.<br>
+• Once it got executed the script takes care of displaying the parameters name being passed and redirect the output of "ls -l"<br>
+except the first line to a file name "listout". The "listout" file will be created everytime the script is being ran.<br>
+• Finally it displays the contents of the directory by using grep and "awk" command along with displaying the total number of files,
+normal files and directories.<br>
+
+<br/>
+<br/>
 <p > Description about sameln.sh</a> --&gt;</p>
 <p class="has-line-data" data-line-start="6" data-line-end="13">•   The program gives message when no argument is provided OR wrong argument { be it file or directory_name which does not exist}<br>
 •   The program loops over every files that is present in the directory provided in the argument and also displays it, just for the user experience<br>
