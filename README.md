@@ -13,6 +13,7 @@ except the first line to a file name "listout". The "listout" file will be creat
 • Finally it displays the contents of the directory by using grep and "awk" command along with displaying the total number of files,
 normal files and directories.<br>
 
+
 <br/>
 <br/>
 <p > Description about sameln.sh</a> --&gt;</p>
